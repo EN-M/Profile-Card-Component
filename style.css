@@ -2,9 +2,12 @@
 
 :root {
     --main-bg-color: hsl(185, 75%, 39%);
+    --dark-gray: hsl(0, 0%, 59%);
+    --dark-blue: hsl(229, 23%, 23%);
+    --dark-gray-blue: hsl(227, 10%, 46%);
 }
 
-/************************* attribution *************************/
+/************************* Attribution *************************/
 
 .attribution {
     font-size: 11px;
@@ -14,6 +17,8 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/************************* Background *************************/
 
 /* body {
     background-image: url(imgs/bg-pattern-top.svg), url(imgs/image-victor.jpg);
@@ -25,4 +30,34 @@
 body {
     background: url(imgs/bg-pattern-top.svg) -110% 50% no-repeat, url(imgs/bg-pattern-bottom.svg) 180% -50% no-repeat;
     background-color: var(--main-bg-color);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/************************* Background *************************/
+
+.prof-pic {
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.profile-header {
+    background: url(imgs/bg-pattern-card.svg);
+    background-size: contain;
+}
+
+.container {
+    text-align: center;
+    /* width: 40%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.profile {
+    background-color: #fff;
 }

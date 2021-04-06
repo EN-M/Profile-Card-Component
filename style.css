@@ -1,0 +1,28 @@
+/************************* CSS custom properties (variables) *************************/
+
+:root {
+    --main-bg-color: hsl(185, 75%, 39%);
+}
+
+/************************* attribution *************************/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* body {
+    background-image: url(imgs/bg-pattern-top.svg), url(imgs/image-victor.jpg);
+    background-position: left bottom, right top;
+    background-color: gray;
+    background-repeat: no-repeat;
+} */
+
+body {
+    background: url(imgs/bg-pattern-top.svg) -110% 50% no-repeat, url(imgs/bg-pattern-bottom.svg) 180% -50% no-repeat;
+    background-color: var(--main-bg-color);
+}
